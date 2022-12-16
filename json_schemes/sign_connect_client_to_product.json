@@ -1,0 +1,101 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Id": {
+      "type": "string"
+    },
+    "UserId": {
+      "type": "string"
+    },
+    "LastAttemptTime": {
+      "type": "object",
+      "properties": {
+        "Seconds": {
+          "type": "integer"
+        },
+        "Nanos": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "Seconds",
+        "Nanos"
+      ]
+    },
+    "CodeLength": {
+      "type": "integer"
+    },
+    "DocumentsToSign": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "CreationTime": {
+            "type": "object",
+            "properties": {
+              "Seconds": {
+                "type": "integer"
+              },
+              "Nanos": {
+                "type": "integer"
+              },
+              "Na\nnos": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "Seconds"
+            ]
+          },
+          "Description": {
+            "type": "string"
+          },
+          "ParentId": {
+            "type": "integer"
+          },
+          "Id": {
+            "type": "integer"
+          },
+          "Name": {
+            "type": "string"
+          },
+          "FileId": {
+            "type": "integer"
+          },
+          "FileName": {
+            "type": "string"
+          },
+          "\nCreationTime": {
+            "type": "object",
+            "properties": {
+              "Seconds": {
+                "type": "integer"
+              },
+              "Nanos": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "Seconds",
+              "Nanos"
+            ]
+          }
+        },
+        "required": [
+          "Description",
+          "ParentId",
+          "Id",
+          "Name"
+        ]
+      }
+    }
+  },
+  "required": [
+    "Id",
+    "UserId",
+    "LastAttemptTime",
+    "CodeLength",
+    "DocumentsToSign"
+  ]
+}

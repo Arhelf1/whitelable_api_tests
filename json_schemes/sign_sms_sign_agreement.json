@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Id": {
+      "type": "string"
+    },
+    "UserId": {
+      "type": "string"
+    },
+    "LastAttemptTime": {
+      "type": "object",
+      "properties": {
+        "Seconds": {
+          "type": "integer"
+        },
+        "Nanos": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "Seconds",
+        "Nanos"
+      ]
+    },
+    "CodeLength": {
+      "type": "integer"
+    },
+    "DocumentsToSign": {
+      "type": "array",
+      "items": {}
+    }
+  },
+  "required": [
+    "Id",
+    "UserId",
+    "LastAttemptTime",
+    "CodeLength",
+    "DocumentsToSign"
+  ]
+}

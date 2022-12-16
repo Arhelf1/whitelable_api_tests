@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "LastName": {
+      "type": "string"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "MiddleName": {
+      "type": "string"
+    },
+    "Gender": {
+      "type": "integer"
+    },
+    "BirthDate": {
+      "type": "string"
+    },
+    "BirthPlace": {
+      "type": "string"
+    },
+    "Serial": {
+      "type": "string"
+    },
+    "Number": {
+      "type": "string"
+    },
+    "IssueDepartment": {
+      "type": "string"
+    },
+    "IssueDepartmentCode": {
+      "type": "string"
+    },
+    "IssueDate": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "LastName",
+    "FirstName",
+    "MiddleName",
+    "Gender",
+    "BirthDate",
+    "BirthPlace",
+    "Serial",
+    "Number",
+    "IssueDepartment",
+    "IssueDepartmentCode",
+    "IssueDate"
+  ]
+}

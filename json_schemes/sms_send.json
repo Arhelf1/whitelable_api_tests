@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+      "number": {"type": "integer"},
+      "phone": {"type": "string"},
+      "timeout": {"type": "integer"}
+  },
+  "additionalProperties": false
+}

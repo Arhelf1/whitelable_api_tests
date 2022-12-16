@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "CreatedDocuments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer"
+          },
+          "DocumentKind": {
+            "type": "string"
+          },
+          "Number": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Id",
+          "DocumentKind",
+          "Number"
+        ]
+      }
+    }
+  },
+  "required": [
+    "CreatedDocuments"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "IsApproved": {
+      "type": "boolean"
+    },
+    "Id": {
+      "type": "string"
+    },
+    "UserId": {
+      "type": "string"
+    },
+    "LastAttemptTime": {
+      "type": "object",
+      "properties": {
+        "Seconds": {
+          "type": "integer"
+        },
+        "Nanos": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "Seconds",
+        "Nanos"
+      ]
+    }
+  },
+  "required": [
+    "IsApproved",
+    "Id",
+    "UserId",
+    "LastAttemptTime"
+  ]
+}

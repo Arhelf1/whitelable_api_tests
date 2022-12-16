@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "OrderId": {
+          "type": "integer"
+        },
+        "ProductId": {
+          "type": "integer"
+        },
+        "ProductName": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "StatusName": {
+          "type": "string"
+        },
+        "Description": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "OrderId",
+        "ProductId",
+        "ProductName",
+        "Status",
+        "StatusName",
+        "Description"
+      ]
+    }
+  ]
+}

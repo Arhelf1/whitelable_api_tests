@@ -1,0 +1,9 @@
+.idea
+.pytest_cache
+__pycache__
+tests/.cache
+tests/__pycache__
+venv
+allure_reports
+/data_for_tests/__pycache__
+

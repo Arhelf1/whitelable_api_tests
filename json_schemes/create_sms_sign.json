@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "CreationTime": {
+        "type": "object",
+        "properties": {
+          "Seconds": {
+            "type": "integer"
+          },
+          "Nanos": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "Seconds",
+          "Nanos"
+        ]
+      },
+      "Description": {
+        "type": "string"
+      },
+      "ParentId": {
+        "type": "integer"
+      },
+      "Id": {
+        "type": "integer"
+      },
+      "Name": {
+        "type": "string"
+      },
+      "FileId": {
+        "type": "integer"
+      },
+      "FileName": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "CreationTime",
+      "Description",
+      "ParentId",
+      "Id",
+      "Name",
+      "FileId",
+      "FileName"
+    ]
+  }
+}

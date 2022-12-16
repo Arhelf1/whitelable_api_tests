@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "Id": {
+          "type": "string"
+        },
+        "Address": {
+          "type": "string"
+        },
+        "PostalCode": {
+          "type": "string"
+        },
+        "AddressLevel": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Id",
+        "Address",
+        "PostalCode",
+        "AddressLevel"
+      ]
+    }
+  ]
+}

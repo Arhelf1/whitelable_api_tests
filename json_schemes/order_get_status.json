@@ -1,0 +1,7 @@
+{
+  "type": "object",
+  "properties": {
+      "orderStatus": {"type": "string"}
+  },
+  "additionalProperties": false
+}

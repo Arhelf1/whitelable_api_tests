@@ -1,0 +1,12 @@
+{
+  "type": "object",
+    "maxProperties": 5,
+  "properties": {
+      "open": {"type": "number"},
+      "high": {"type": "number"},
+      "low": {"type": "number"},
+      "close": {"type": "number"},
+      "date": {"type": "string"}
+  },
+  "additionalProperties": false
+}

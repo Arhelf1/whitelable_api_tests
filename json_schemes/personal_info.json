@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Gender": {
+      "type": "integer"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "MiddleName": {
+      "type": "string"
+    },
+    "DateOfBirth": {
+      "type": "string"
+    },
+    "Citizenship": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "Gender",
+    "FirstName",
+    "LastName",
+    "MiddleName",
+    "DateOfBirth",
+    "Citizenship"
+  ]
+}

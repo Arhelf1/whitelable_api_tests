@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+      "issuer": {"type": "string"},
+      "code": {"type": "string"},
+      "board": {"type": "string"},
+      "total": {"type": "integer"},
+      "sum": {"type": "null"}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,43 @@
+{
+  "type": "object",
+  "properties": {
+      "documentId": {"type": "number"},
+      "title": {"type": "string"},
+      "date": {"type": "string"},
+         "status": {
+        "$id": "#/items/properties/status",
+        "type": "object",
+        "title": "The Status Schema",
+        "required": [
+          "title",
+          "code"
+        ],
+        "properties": {
+          "title": {
+            "$id": "#/items/properties/status/properties/title",
+            "type": "string",
+            "title": "The Title Schema",
+            "default": "",
+            "examples": [
+              "Получено системой ЭДО"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "code": {
+            "$id": "#/items/properties/status/properties/code",
+            "type": "string",
+            "title": "The Code Schema",
+            "default": "",
+            "examples": [
+              "Received"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      },
+      "description": {"type": "null"},
+      "canCancel": {"type": "boolean"},
+      "canAddFile": {"type": "boolean"}
+  },
+  "additionalProperties": false
+}

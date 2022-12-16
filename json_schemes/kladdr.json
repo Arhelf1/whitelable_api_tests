@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Region": {
+      "type": "object",
+      "properties": {
+        "Id": {
+          "type": "string"
+        },
+        "Title": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Id",
+        "Title"
+      ]
+    },
+    "Street": {
+      "type": "object",
+      "properties": {
+        "Id": {
+          "type": "string"
+        },
+        "Title": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Id",
+        "Title"
+      ]
+    },
+    "House": {
+      "type": "object",
+      "properties": {
+        "Id": {
+          "type": "string"
+        },
+        "House": {
+          "type": "string"
+        },
+        "Part": {
+          "type": "string"
+        },
+        "Building": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Id",
+        "House",
+        "Part",
+        "Building"
+      ]
+    },
+    "PostalCode": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "Region",
+    "Street",
+    "House",
+    "PostalCode"
+  ]
+}

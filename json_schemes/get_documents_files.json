@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "Id": {
+          "type": "integer"
+        },
+        "FileName": {
+          "type": "string"
+        },
+        "Type": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Id",
+        "FileName",
+        "Type"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "Id": {
+          "type": "integer"
+        },
+        "FileName": {
+          "type": "string"
+        },
+        "Type": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Id",
+        "FileName",
+        "Type"
+      ]
+    }
+  ]
+}

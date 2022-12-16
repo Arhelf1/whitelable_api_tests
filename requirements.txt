@@ -1,0 +1,16 @@
+allure-pytest==2.8.34
+jsonschema==3.2.0
+pymssql==2.2.4
+pytest==6.2.2
+pytest-rerunfailures==9.1.1
+pytest-xdist==2.2.1
+requests==2.25.1
+grpcio==1.36.1
+grpcio-tools==1.36.1
+teamcity-messages==1.28
+path==15.1.2
+lxml==4.6.3
+russian-names==0.1.2
+flaky==3.7.0
+pdfplumber==0.6.0
+filelock==3.4.2

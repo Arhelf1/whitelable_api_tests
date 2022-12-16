@@ -1,0 +1,15 @@
+{
+  "name": "",
+  "precondition": "",
+  "objective": "The objective.",
+  "status": "AUTOMATED",
+  "priority": "High",
+  "labels": [],
+  "customFields": {
+      "Automated": "false"
+  },
+  "testScript": {
+    "type": "STEP_BY_STEP",
+    "steps": []
+  }
+}

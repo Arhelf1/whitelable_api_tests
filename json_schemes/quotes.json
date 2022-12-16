@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+      "ask": { "type": "number" },
+      "bid": { "type": "number" },
+      "lotSize": {"type": "integer"},
+      "securityCode": {"type": "string"},
+      "securityBoard": {"type": "string"},
+       "title": {"type": "string"},
+      "actuality": {"type": "string"},
+      "askFormula": {"type": "string"},
+      "bidFormula": {"type": "string"}
+  },
+  "additionalProperties": false
+}
